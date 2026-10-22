@@ -1,25 +1,45 @@
-#Auto Insurance - Settled Claims
+# Insurance Portfolio Data Analysis
 
-Key Findings - Auto Insurance
+**Tools:** Microsoft Excel | PivotTables | PivotCharts | Interactive Dashboard
 
-1. Policy Distribution
+## Project Overview
 
-Of the 10,000 policies analysed, 1,594 were Auto policies. These were almost evenly distributed between male (794) and female (800) policyholders.
+This project is an initial exploration of a simulated insurance dataset containing 10,000 policyholders.
 
-2. Claim Frequency
+Rather than starting with a specific hypothesis, I wanted to get a better understanding of the data, identify any interesting patterns, and find potential areas worth investigating further.
 
-There were 564 settled Auto claim records, with females accounting for 286 and males 278. Despite having fewer settled claims, males generated higher total claim costs.
+Using Excel, I explored how insurance policies and claims were distributed across different policy types, age groups and genders.
 
-3. Claim Costs
+I then created an interactive dashboard to bring the information together and make it easier to explore.
 
-The average settled claim amount was $2,954. Male claims averaged $3,053, approximately 6.8% higher than female claims ($2,858).
+The aim wasn't to draw definitive conclusions, but to see what the data could tell me and what questions might be worth asking next.
 
-4. Age Group Differences
 
-The 18–29 age group had the highest total settled claim amount at $298,194. However, the 80+ group recorded the highest average settled claim amount at $3,095.
 
-Conclusion
+## 1. Exploring Policy Distribution
 
-The analysis demonstrates that claim volume and average claim cost do not necessarily follow the same patterns. While females recorded slightly more settled claims, males accounted for greater total claim costs due to their higher average claim amounts.
+After cleaning the dataset, I decided to create an AgeGroup column. Grouping policyholders into age brackets would make it easier to compare demographics and identify potential patterns.
 
-These findings highlight the importance of examining both claim frequency and severity when evaluating insurance performance.
+I then created a PivotTable showing the total number of policies, broken down by age group and gender. I also added a PolicyType slicer, allowing me to switch between insurance categories without rebuilding the table.
+
+This gave me an initial overview of how policies were distributed across different demographic groups.
+
+<img width="473" height="419" alt="image" src="https://github.com/user-attachments/assets/d54a6a78-c1b1-4471-8375-8f42f32f19c5" />
+
+One thing that stood out was the difference in Health insurance policy counts between males and females. This could be an interesting area to investigate further, particularly to understand whether the differences remain when accounting for the size of each demographic group.
+
+## 2. Exploring Average Claim Amounts
+
+Next, I looked at average settled claim amounts across different age groups and genders, using slicers to explore each insurance type.
+
+<img width="686" height="485" alt="image" src="https://github.com/user-attachments/assets/ef2b629d-3910-4e4c-911a-ee1db3773040" />
+
+One interesting pattern appeared in Life insurance:
+
+Ages 30–39: Males had a higher average settled claim amount ($3,078) than females ($2,952).
+
+Ages 40–49: The pattern reversed, with females averaging $3,406 compared with $2,981 for males.
+
+This caught my attention because the difference between genders changes noticeably across these age groups.
+
+I'd be interested in examining the individual claims to see whether this reflects a consistent pattern or whether a small number of particularly large claims are influencing the averages.
