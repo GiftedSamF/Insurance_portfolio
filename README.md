@@ -10,6 +10,8 @@ This project is an initial exploration of a simulated insurance dataset containi
 
 Rather than starting with a specific hypothesis, I wanted to get a better understanding of the data, identify any interesting patterns, and find potential areas worth investigating further.
 
+<img width="1056" height="463" alt="image" src="https://github.com/user-attachments/assets/4b8bac5a-f64f-4705-8847-eaf77dda67da" />
+
 Using Excel, I explored how insurance policies and claims were distributed across different policy types, age groups and genders.
 
 I then created an interactive dashboard to bring the information together and make it easier to explore.
