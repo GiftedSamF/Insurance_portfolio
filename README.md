@@ -2,6 +2,8 @@
 
 **Tools:** Microsoft Excel | PivotTables | PivotCharts | Interactive Dashboard
 
+<img width="1241" height="631" alt="image" src="https://github.com/user-attachments/assets/e042ac97-d9ae-477f-8025-bf9b4d7831ae" />
+
 ## Project Overview
 
 This project is an initial exploration of a simulated insurance dataset containing 10,000 policyholders.
