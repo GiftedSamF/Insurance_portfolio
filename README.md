@@ -1,5 +1,7 @@
 # Insurance Portfolio Data Analysis
 
+NOTE: Readme is under construction, spreadsheet is up and working
+
 **Tools:** Microsoft Excel | PivotTables | PivotCharts | Interactive Dashboard
 
 <img width="1241" height="631" alt="image" src="https://github.com/user-attachments/assets/e042ac97-d9ae-477f-8025-bf9b4d7831ae" />
